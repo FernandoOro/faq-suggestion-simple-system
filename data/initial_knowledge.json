@@ -1,0 +1,17 @@
+{
+  "¿Cómo reseteo mi contraseña?": "Para resetear tu contraseña, ve a la página de inicio de sesión y haz clic en '¿Olvidaste tu contraseña?'. Ingresa tu correo electrónico y recibirás un enlace para crear una nueva contraseña.",
+  "¿Cómo cambio mi correo electrónico?": "Para cambiar tu correo electrónico, ve a Configuración > Cuenta > Correo electrónico. Ingresa tu nueva dirección y confirma el cambio mediante el código que recibirás.",
+  "¿Cómo cancelo mi suscripción?": "Puedes cancelar tu suscripción en cualquier momento yendo a Configuración > Suscripción > Cancelar suscripción. Tu acceso continuará hasta el final del periodo de facturación actual.",
+  "¿Cómo actualizo mi método de pago?": "Para actualizar tu método de pago, dirígete a Configuración > Facturación > Métodos de pago. Allí podrás agregar, editar o eliminar tarjetas de crédito.",
+  "¿Cómo contacto con soporte técnico?": "Puedes contactar con nuestro equipo de soporte técnico enviando un correo a soporte@empresa.com o usando el chat en vivo disponible de lunes a viernes de 9:00 a 18:00.",
+  "¿Cómo descargo mis datos?": "Para descargar todos tus datos, ve a Configuración > Privacidad > Descargar mis datos. Recibirás un archivo ZIP con toda tu información en un plazo de 48 horas.",
+  "¿Cómo elimino mi cuenta?": "Para eliminar permanentemente tu cuenta, ve a Configuración > Cuenta > Eliminar cuenta. Ten en cuenta que esta acción es irreversible y todos tus datos serán eliminados.",
+  "¿Cómo activo la autenticación de dos factores?": "Para mayor seguridad, ve a Configuración > Seguridad > Autenticación de dos factores. Sigue las instrucciones para configurar 2FA usando una aplicación de autenticación.",
+  "¿Cómo subo archivos?": "Puedes subir archivos haciendo clic en el botón 'Subir' en la esquina superior derecha. Los formatos soportados son PDF, DOC, DOCX, JPG, PNG (máximo 10MB).",
+  "¿Cómo comparto contenido con otros usuarios?": "Para compartir contenido, haz clic en el botón 'Compartir' junto al elemento que deseas compartir. Puedes enviar un enlace o invitar directamente por correo electrónico.",
+  "¿Cuál es el límite de almacenamiento?": "El plan gratuito incluye 5GB de almacenamiento. Los planes premium ofrecen 50GB (Básico), 200GB (Pro) o almacenamiento ilimitado (Enterprise).",
+  "¿Cómo exporto mis documentos?": "Puedes exportar tus documentos individualmente haciendo clic derecho > Exportar, o exportar todo tu contenido desde Configuración > Datos > Exportar todo.",
+  "¿Cómo invito a miembros de equipo?": "Para invitar miembros a tu equipo, ve a Equipo > Invitar miembros. Ingresa las direcciones de correo electrónico y asigna los permisos correspondientes.",
+  "¿Cómo veo mi historial de facturación?": "Tu historial de facturación está disponible en Configuración > Facturación > Historial. Allí puedes descargar facturas individuales en formato PDF.",
+  "¿Qué navegadores son compatibles?": "Nuestra plataforma es compatible con las últimas versiones de Chrome, Firefox, Safari y Edge. Recomendamos mantener tu navegador actualizado para la mejor experiencia."
+}
