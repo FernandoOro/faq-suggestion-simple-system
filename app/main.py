@@ -61,7 +61,7 @@ app.include_router(knowledge.router, prefix=API_PREFIX)
 
 
 @app.get("/health", response_model=HealthResponse, tags=["health"])
-async def health_check() -> HealthResponse:
+def health_check() -> HealthResponse:
     """Endpoint de verificación de salud de la aplicación."""
     kb = get_knowledge_base()
     hist = get_history_service()
@@ -75,7 +75,7 @@ async def health_check() -> HealthResponse:
 
 
 @app.get("/", tags=["root"])
-async def root():
+def root():
     """Endpoint raíz con información básica."""
     return {
         "message": f"Welcome to {APP_NAME}",

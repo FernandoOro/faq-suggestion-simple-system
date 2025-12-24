@@ -11,7 +11,7 @@ router = APIRouter(prefix="/knowledge", tags=["knowledge"])
 
 
 @router.post("", response_model=KnowledgeResponse, status_code=201)
-async def add_knowledge(
+def add_knowledge(
     entry: KnowledgeEntry,
     kb: KnowledgeBase = Depends(get_knowledge_base)
 ) -> KnowledgeResponse:

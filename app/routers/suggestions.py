@@ -11,7 +11,7 @@ router = APIRouter(prefix="/suggest", tags=["suggestions"])
 
 
 @router.post("", response_model=SuggestionResponse)
-async def suggest_answer(
+def suggest_answer(
     request: QueryRequest,
     kb: KnowledgeBase = Depends(get_knowledge_base),
     similarity: SimilarityService = Depends(get_similarity_service),

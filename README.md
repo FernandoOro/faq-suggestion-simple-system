@@ -6,7 +6,7 @@ API para sugerir respuestas FAQ usando similitud de texto.
 
 Decidí usar `difflib.SequenceMatcher` en lugar de modelos de NLP más pesados por tres razones:
 
-1. **Zero dependencias externas** - Solo usa stdlib de Python
+1. **Sin dependencias de ML/NLP** - Solo usa stdlib de Python (difflib)
 2. **Suficiente para datasets pequeños** - Funciona bien con <1000 FAQs
 3. **Deploy instantáneo** - No hay que descargar modelos de 500MB
 
@@ -44,6 +44,7 @@ pytest --cov=app --cov-report=term-missing
 - **Sin persistencia** - Los datos se pierden al reiniciar (esto es un demo; en prod usaría Postgres)
 - **Threshold 0.6** - Umbral de similitud ajustable en `dependencies.py`
 - **CORS habilitado** - Por si quiero hacer un frontend más adelante
+- **Routers síncronos** - Las funciones usan `def` (no `async`) porque `difflib` es CPU-bound. FastAPI las ejecuta en threadpool automáticamente, evitando bloquear el event loop.
 
 ## Mejoras Futuras
 

@@ -12,7 +12,7 @@ router = APIRouter(prefix="/history", tags=["history"])
 
 
 @router.get("", response_model=HistoryResponse)
-async def get_history(
+def get_history(
     limit: Optional[int] = Query(None, ge=1),
     history: HistoryService = Depends(get_history_service)
 ) -> HistoryResponse:
